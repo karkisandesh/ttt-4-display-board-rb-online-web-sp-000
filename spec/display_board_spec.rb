@@ -190,7 +190,7 @@ describe "#display_board in 'lib/display_board.rb" do
       #expect(true).to be(true)
    # end
 
-    it 'prints an entire board full of Os' 
+    it 'prints an entire board full of Os' do
     
     board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
