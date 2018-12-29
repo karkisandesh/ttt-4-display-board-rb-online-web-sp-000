@@ -202,6 +202,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" O | O | O ")
     end
+    
       # Can you copy the syntax of the tests above to write a test for a board
       # entirely filled with Os?
 
