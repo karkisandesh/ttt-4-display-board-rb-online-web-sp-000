@@ -218,6 +218,6 @@ describe "#display_board in 'lib/display_board.rb" do
       # Don't touch the following lines.
     # output = capture_puts{ display_board(board) } if defined?(display_board)
   #  rows = output.split("\n")
-  
+end
   end
 end
