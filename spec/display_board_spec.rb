@@ -195,8 +195,9 @@ end
     
     board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
-      output = capture_puts{ display_board(board) }
-      rows = output.split("\n")
+      output = capture_puts{ display_board(board) } if defined?(display_board)
+  rows = output.split("\n")
+end
 
       expect(rows[0]).to eq(" O | O | O ")
       expect(rows[1]).to eq("-----------")
