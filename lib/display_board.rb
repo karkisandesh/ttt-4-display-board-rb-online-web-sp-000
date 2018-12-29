@@ -20,7 +20,7 @@
   
 #end
 
-board = [" X  ", "  X ", " X ", " X ", " O ", " O  ", " O ", " O ", "  O "]
+board = [" X  ", "  X ", " X ", " X ", " X ", " X  ", " X ", " X ", "  X "]
 
 
 def display_board(board)
